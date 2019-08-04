@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+//    id 'com.gradle.build-scan' version '2.3'
+}
+
+group 'adressbook-web-tests'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.seleniumhq.selenium:selenium-java:3.141.59'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile group: 'org.testng', name: 'testng', version: '6.14.3'
+
+
+}
+/*
+buildScan {
+    termsOfServiceUrl = 'https://gradle.com/terms-of-service'
+    termsOfServiceAgree = 'no'
+}*/
