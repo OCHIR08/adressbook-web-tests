@@ -22,13 +22,34 @@ public class GroupHelper extends HelperBase {
     type(By.name("group_footer"), groupData.getFooter());
   }
 
-  public void initGroupCreation() { click(By.name("new")); }
+  public void initGroupCreation() {
+    click(By.name("new"));
+  }
 
-  public void DeleteSelectGroups() { click(By.name("delete")); }
+  public void DeleteSelectGroups() {
+    click(By.name("delete"));
+  }
 
-  public void selectGroup() { click(By.name("selected[]")); }
+  public void selectGroup() {
+    click(By.name("selected[]"));
+  }
 
-  public void initGroupModification() { click(By.name("edit")); }
+  public void initGroupModification() {
+    click(By.name("edit"));
+  }
 
-  public void submitGroupModification() { click(By.name("update")); }
+  public void submitGroupModification() {
+    click(By.name("update"));
+  }
+
+  public void createGroup(GroupData group) {
+    initGroupCreation();
+    fillGroupForm(new GroupData("test1", null, null));
+    submitGroupCreation();
+    returnToGroupPage();
+  }
+
+  public boolean isThereAGroup() {
+    return isElementPresent(By.name("selected[]"));
+  }
 }
