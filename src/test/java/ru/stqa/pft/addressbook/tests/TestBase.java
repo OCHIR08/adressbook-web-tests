@@ -7,15 +7,15 @@ import ru.stqa.pft.addressbook.appmanager.ApplicationManager;
 
 public class TestBase {
 
-  protected final ApplicationManager app = new ApplicationManager(BrowserType.CHROME);
+  protected final ApplicationManager app = new ApplicationManager(BrowserType.FIREFOX);
 
   @Before
-  public void setUp() throws Exception {
+  public void setUp() {
     app.init();
   }
 
   @After
-  public void tearDown() throws Exception {
+  public void tearDown()  {
     app.stop();
   }
 

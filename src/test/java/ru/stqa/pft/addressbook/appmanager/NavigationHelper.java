@@ -9,5 +9,11 @@ public class NavigationHelper extends HelperBase {
     super(driver);
   }
 
-  public void gotoGroupPage() { click(By.linkText("groups")); }
+  public void gotoGroupPage() {
+    click(By.linkText("groups"));
+  }
+
+  public void gotoHomePage() {
+    click((By.linkText("home")));
+  }
 }
