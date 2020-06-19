@@ -1,6 +1,5 @@
 plugins {
     id 'java'
-//    id 'com.gradle.build-scan' version '2.3'
 }
 
 group 'adressbook-web-tests'
@@ -18,12 +17,4 @@ dependencies {
     testCompile group: 'org.testng', name: 'testng', version: '6.14.3'
     testCompile group: 'org.testng', name: 'testng', version: '7.1.0'
     compile group: 'commons-io', name: 'commons-io', version: '2.5'
-
-
-
 }
-/*
-buildScan {
-    termsOfServiceUrl = 'https://gradle.com/terms-of-service'
-    termsOfServiceAgree = 'no'
-}*/
