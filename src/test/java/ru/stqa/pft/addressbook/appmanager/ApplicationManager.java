@@ -6,6 +6,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.BrowserType;
 
+import java.util.concurrent.TimeUnit;
+
 public class ApplicationManager {
   protected WebDriver driver;
 
@@ -26,6 +28,7 @@ public class ApplicationManager {
     } else if (browser.equals(BrowserType.IE)) {
       driver = new InternetExplorerDriver();
     }
+    driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
     driver.get("http://localhost/addressbook/");
     groupHelper = new GroupHelper(driver);
     navigationHelper = new NavigationHelper(driver);

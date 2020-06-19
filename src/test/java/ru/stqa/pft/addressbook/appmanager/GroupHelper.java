@@ -52,4 +52,9 @@ public class GroupHelper extends HelperBase {
   public boolean isThereAGroup() {
     return isElementPresent(By.name("selected[]"));
   }
+
+  public int getGroupCount() {
+    return driver.findElements(By.name("selected[]")).size();
+
+  }
 }
