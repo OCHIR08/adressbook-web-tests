@@ -11,15 +11,16 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/ru/stqa/pft/addressbook/appmanager/GroupHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/ru/stqa/pft/addressbook/appmanager/GroupHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ru.stqa.pft.addressbook.tests.GroupDeletionTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/ru/stqa/pft/addressbook/tests/GroupCreationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/ru/stqa/pft/addressbook/tests/GroupCreationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ru.stqa.pft.addressbook.tests.GroupModificationTests.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/ru.stqa.pft.addressbook.tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/ru.stqa.pft.addressbook.tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ru.stqa.pft.addressbook.tests.GroupDeletionTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ru.stqa.pft.addressbook.tests.GroupModificationTests.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/GroupHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/GroupHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/GroupData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/GroupData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupModificationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupModificationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +99,7 @@
       <recent name="ru.stqa.pft.addressbook" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.GroupModificationTests">
+  <component name="RunManager" selected="Gradle.GroupCreationTests">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -223,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GroupCreationTests" />
         <item itemvalue="Gradle.GroupModificationTests" />
         <item itemvalue="Gradle.GroupModificationTests.testGroupModification" />
         <item itemvalue="Gradle.GroupDeletionTests" />
         <item itemvalue="Gradle.GroupDeletionTests.testGroupDeletion" />
-        <item itemvalue="Gradle.GroupCreationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -274,10 +275,10 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="154" y="92" width="1674" height="896" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1592621725701" />
-    <state x="761" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1592775541411">
+    <state x="761" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1592853849532">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="761" y="241" key="#com.intellij.ide.util.MemberChooser/62.0.1858.1080@62.0.1858.1080" timestamp="1592775541411" />
+    <state x="761" y="241" key="#com.intellij.ide.util.MemberChooser/62.0.1858.1080@62.0.1858.1080" timestamp="1592853849532" />
     <state x="964" y="106" key="CommitChangelistDialog2" timestamp="1592574183283">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
@@ -286,22 +287,22 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="771" y="295" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1592580225243" />
-    <state width="1815" height="237" key="GridCell.Tab.0.bottom" timestamp="1592776977821">
+    <state width="1815" height="237" key="GridCell.Tab.0.bottom" timestamp="1593089497303">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="237" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1592776977821" />
-    <state width="1815" height="237" key="GridCell.Tab.0.center" timestamp="1592776977821">
+    <state width="1815" height="237" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1593089497303" />
+    <state width="1815" height="237" key="GridCell.Tab.0.center" timestamp="1593089497303">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="237" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1592776977821" />
-    <state width="1815" height="237" key="GridCell.Tab.0.left" timestamp="1592776977821">
+    <state width="1815" height="237" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1593089497303" />
+    <state width="1815" height="237" key="GridCell.Tab.0.left" timestamp="1593089497302">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="237" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1592776977821" />
-    <state width="1815" height="237" key="GridCell.Tab.0.right" timestamp="1592776977821">
+    <state width="1815" height="237" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1593089497302" />
+    <state width="1815" height="237" key="GridCell.Tab.0.right" timestamp="1593089497303">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="237" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1592776977821" />
+    <state width="1815" height="237" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1593089497303" />
     <state width="1815" height="364" key="GridCell.Tab.1.bottom" timestamp="1592776343663">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
@@ -342,16 +343,5 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="733" y="159" key="refactoring.ChangeSignatureDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1592747719528" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.1.0/e32dae9ce35e13fd7f0fa7efe89f767ac87552a7/testng-7.1.0-sources.jar!/org/testng/Assert.java</url>
-          <line>1245</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
