@@ -10,16 +10,13 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.5.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/ru/stqa/pft/addressbook/appmanager/GroupHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/ru/stqa/pft/addressbook/appmanager/GroupHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/ru/stqa/pft/addressbook/tests/GroupCreationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/ru/stqa/pft/addressbook/tests/GroupCreationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ru.stqa.pft.addressbook.tests.GroupModificationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ru.stqa.pft.addressbook.tests.GroupCreationTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/ru.stqa.pft.addressbook.tests.GroupCreationTests.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/ru.stqa.pft.addressbook.tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/ru.stqa.pft.addressbook.tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ru.stqa.pft.addressbook.tests.GroupModificationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ru.stqa.pft.addressbook.tests.GroupCreationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-ru.stqa.pft.addressbook.tests.GroupCreationTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/GroupHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/GroupHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/GroupData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/GroupData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -287,46 +284,46 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="771" y="295" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1592580225243" />
-    <state width="1815" height="237" key="GridCell.Tab.0.bottom" timestamp="1593089497303">
+    <state width="1815" height="364" key="GridCell.Tab.0.bottom" timestamp="1593090928248">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="237" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1593089497303" />
-    <state width="1815" height="237" key="GridCell.Tab.0.center" timestamp="1593089497303">
+    <state width="1815" height="364" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1593090928248" />
+    <state width="1815" height="364" key="GridCell.Tab.0.center" timestamp="1593090928247">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="237" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1593089497303" />
-    <state width="1815" height="237" key="GridCell.Tab.0.left" timestamp="1593089497302">
+    <state width="1815" height="364" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1593090928247" />
+    <state width="1815" height="364" key="GridCell.Tab.0.left" timestamp="1593090928247">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="237" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1593089497302" />
-    <state width="1815" height="237" key="GridCell.Tab.0.right" timestamp="1593089497303">
+    <state width="1815" height="364" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1593090928247" />
+    <state width="1815" height="364" key="GridCell.Tab.0.right" timestamp="1593090928247">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="237" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1593089497303" />
-    <state width="1815" height="364" key="GridCell.Tab.1.bottom" timestamp="1592776343663">
+    <state width="1815" height="364" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1593090928247" />
+    <state width="1815" height="364" key="GridCell.Tab.1.bottom" timestamp="1593090928248">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="364" key="GridCell.Tab.1.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1592776343663" />
-    <state width="1815" height="364" key="GridCell.Tab.1.center" timestamp="1592776343662">
+    <state width="1815" height="364" key="GridCell.Tab.1.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1593090928248" />
+    <state width="1815" height="364" key="GridCell.Tab.1.center" timestamp="1593090928248">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="364" key="GridCell.Tab.1.center/62.0.1858.1080@62.0.1858.1080" timestamp="1592776343662" />
-    <state width="1815" height="364" key="GridCell.Tab.1.left" timestamp="1592776343662">
+    <state width="1815" height="364" key="GridCell.Tab.1.center/62.0.1858.1080@62.0.1858.1080" timestamp="1593090928248" />
+    <state width="1815" height="364" key="GridCell.Tab.1.left" timestamp="1593090928248">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="364" key="GridCell.Tab.1.left/62.0.1858.1080@62.0.1858.1080" timestamp="1592776343662" />
-    <state width="1815" height="364" key="GridCell.Tab.1.right" timestamp="1592776343663">
+    <state width="1815" height="364" key="GridCell.Tab.1.left/62.0.1858.1080@62.0.1858.1080" timestamp="1593090928248" />
+    <state width="1815" height="364" key="GridCell.Tab.1.right" timestamp="1593090928248">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="364" key="GridCell.Tab.1.right/62.0.1858.1080@62.0.1858.1080" timestamp="1592776343663" />
+    <state width="1815" height="364" key="GridCell.Tab.1.right/62.0.1858.1080@62.0.1858.1080" timestamp="1593090928248" />
     <state x="656" y="239" key="NewModule_or_Project.wizard" timestamp="1592580102360">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="656" y="239" key="NewModule_or_Project.wizard/62.0.1858.1080@62.0.1858.1080" timestamp="1592580102360" />
-    <state x="471" y="114" key="SettingsEditor" timestamp="1592580277194">
+    <state x="471" y="114" key="SettingsEditor" timestamp="1593090658459">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="471" y="114" key="SettingsEditor/62.0.1858.1080@62.0.1858.1080" timestamp="1592580277194" />
+    <state x="471" y="114" key="SettingsEditor/62.0.1858.1080@62.0.1858.1080" timestamp="1593090658459" />
     <state x="583" y="273" key="Vcs.Push.Dialog.v2" timestamp="1592572927589">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
