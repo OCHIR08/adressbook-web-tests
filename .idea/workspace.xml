@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0054ac89-bae9-417b-951c-328d3205cedc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/Groups.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/appmanager/GroupHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/appmanager/GroupHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/tests/GroupCreationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/tests/GroupCreationTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/tests/GroupDeletionTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/tests/GroupDeletionTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/tests/GroupModificationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/tests/GroupModificationTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/GroupHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/GroupHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/Groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/Groups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactCreationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupDeletionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupDeletionTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupModificationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupModificationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +90,7 @@
       <recent name="ru.stqa.pft.addressbook" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GroupModificationTests">
+  <component name="RunManager" selected="TestNG.GroupCreationTests.testGroupCreation">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -114,6 +115,25 @@
       <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.GroupCreationTests" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupCreationTests.testGroupCreation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="adressbook-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.GroupCreationTests" />
+      <option name="METHOD_NAME" value="testGroupCreation" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -185,30 +205,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.stqa.pft.addressbook.tests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="adressbook-web-tests.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GroupModificationTests" />
-        <item itemvalue="TestNG.GroupDeletionTests.testGroupDeletion" />
+        <item itemvalue="TestNG.GroupCreationTests.testGroupCreation" />
         <item itemvalue="TestNG.GroupDeletionTests" />
         <item itemvalue="TestNG.GroupCreationTests" />
-        <item itemvalue="TestNG.ru.stqa.pft.addressbook.tests" />
+        <item itemvalue="TestNG.GroupModificationTests" />
+        <item itemvalue="TestNG.GroupDeletionTests.testGroupDeletion" />
       </list>
     </recent_temporary>
   </component>
@@ -247,10 +250,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="583" y="198" width="816" height="729" key="#Intentions" timestamp="1592622554432">
+    <state x="583" y="198" width="816" height="774" key="#Intentions" timestamp="1593183388035">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="583" y="198" width="816" height="729" key="#Intentions/62.0.1858.1080@62.0.1858.1080" timestamp="1592622554432" />
+    <state x="583" y="198" width="816" height="774" key="#Intentions/62.0.1858.1080@62.0.1858.1080" timestamp="1593183388035" />
     <state x="154" y="92" width="1674" height="896" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1593125434118">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
@@ -267,38 +270,38 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="771" y="295" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1592580225243" />
-    <state width="1815" height="137" key="GridCell.Tab.0.bottom" timestamp="1593127766135">
+    <state width="1815" height="289" key="GridCell.Tab.0.bottom" timestamp="1593272702357">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="137" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1593127766135" />
-    <state width="1815" height="137" key="GridCell.Tab.0.center" timestamp="1593127766135">
+    <state width="1815" height="289" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1593272702357" />
+    <state width="1815" height="289" key="GridCell.Tab.0.center" timestamp="1593272702357">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="137" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1593127766135" />
-    <state width="1815" height="137" key="GridCell.Tab.0.left" timestamp="1593127766135">
+    <state width="1815" height="289" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1593272702357" />
+    <state width="1815" height="289" key="GridCell.Tab.0.left" timestamp="1593272702357">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="137" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1593127766135" />
-    <state width="1815" height="137" key="GridCell.Tab.0.right" timestamp="1593127766135">
+    <state width="1815" height="289" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1593272702357" />
+    <state width="1815" height="289" key="GridCell.Tab.0.right" timestamp="1593272702357">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="137" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1593127766135" />
-    <state width="1815" height="364" key="GridCell.Tab.1.bottom" timestamp="1593090928248">
+    <state width="1815" height="289" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1593272702357" />
+    <state width="1815" height="364" key="GridCell.Tab.1.bottom" timestamp="1593184069931">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="364" key="GridCell.Tab.1.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1593090928248" />
-    <state width="1815" height="364" key="GridCell.Tab.1.center" timestamp="1593090928248">
+    <state width="1815" height="364" key="GridCell.Tab.1.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1593184069931" />
+    <state width="1815" height="364" key="GridCell.Tab.1.center" timestamp="1593184069931">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="364" key="GridCell.Tab.1.center/62.0.1858.1080@62.0.1858.1080" timestamp="1593090928248" />
-    <state width="1815" height="364" key="GridCell.Tab.1.left" timestamp="1593090928248">
+    <state width="1815" height="364" key="GridCell.Tab.1.center/62.0.1858.1080@62.0.1858.1080" timestamp="1593184069931" />
+    <state width="1815" height="364" key="GridCell.Tab.1.left" timestamp="1593184069931">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="364" key="GridCell.Tab.1.left/62.0.1858.1080@62.0.1858.1080" timestamp="1593090928248" />
-    <state width="1815" height="364" key="GridCell.Tab.1.right" timestamp="1593090928248">
+    <state width="1815" height="364" key="GridCell.Tab.1.left/62.0.1858.1080@62.0.1858.1080" timestamp="1593184069931" />
+    <state width="1815" height="364" key="GridCell.Tab.1.right" timestamp="1593184069931">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="364" key="GridCell.Tab.1.right/62.0.1858.1080@62.0.1858.1080" timestamp="1593090928248" />
+    <state width="1815" height="364" key="GridCell.Tab.1.right/62.0.1858.1080@62.0.1858.1080" timestamp="1593184069931" />
     <state x="656" y="239" key="NewModule_or_Project.wizard" timestamp="1592580102360">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
