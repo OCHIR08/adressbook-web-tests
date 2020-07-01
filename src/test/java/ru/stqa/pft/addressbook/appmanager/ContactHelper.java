@@ -17,9 +17,12 @@ public class ContactHelper extends HelperBase {
     public void fillContactFrom(ContactData contactData, boolean creation){
         type(By.name ("firstname"), contactData.getFirstname());
         type(By.name ("lastname"), contactData.getSecondname());
+        attach(By.name("photo"), contactData.getPhoto());
 
         if (creation){
-            new Select(driver.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroup());
+            if (contactData.getGroup() != null) {
+                new Select(driver.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroup());
+            }
         } else {
             Assert.assertFalse(isElementPresent(By.name("new_group")));
         }

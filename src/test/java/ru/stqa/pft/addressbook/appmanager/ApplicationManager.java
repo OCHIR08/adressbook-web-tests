@@ -28,7 +28,7 @@ public class ApplicationManager {
     } else if (browser.equals(BrowserType.IE)) {
       driver = new InternetExplorerDriver();
     }
-    driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
+    driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
     driver.get("http://localhost/addressbook/");
     groupHelper = new GroupHelper(driver);
     navigationHelper = new NavigationHelper(driver);
