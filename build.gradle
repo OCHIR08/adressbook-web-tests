@@ -12,7 +12,8 @@ repositories {
 }
 
 dependencies {
-    compile 'org.seleniumhq.selenium:selenium-java:3.141.59'
     compile group: 'org.testng', name: 'testng', version: '7.1.0'
+    compile 'org.seleniumhq.selenium:selenium-java:3.141.59'
     compile group: 'org.hamcrest', name: 'java-hamcrest', version: '2.0.0.0'
+    compile 'com.beust:jcommander:1.48'
 }

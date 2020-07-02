@@ -14,7 +14,6 @@
             <option value="$PROJECT_DIR$/sandbox" />
           </set>
         </option>
-        <option name="useAutoImport" value="true" />
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
@@ -25,19 +24,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/../sandbox" />
-          </set>
-        </option>
-        <option name="useAutoImport" value="true" />
-        <option name="useQualifiedModuleNames" value="true" />
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="delegatedBuild" value="true" />
-        <option name="testRunner" value="GRADLE" />
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$USER_HOME$/IdeaProjects/sandbox" />
-        <option name="modules">
-          <set>
-            <option value="$USER_HOME$/IdeaProjects/sandbox" />
           </set>
         </option>
         <option name="useQualifiedModuleNames" value="true" />
