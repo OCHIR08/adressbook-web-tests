@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.stqa.pft.addressbook.tests.ContactCreationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-07-05T19:53:54" hostname="DESKTOP-6DJN50P" time="1.197">
+<testsuite name="ru.stqa.pft.addressbook.tests.ContactCreationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-07-05T21:48:50" hostname="DESKTOP-6DJN50P" time="1.13">
   <properties/>
-  <testcase name="testContactCreation" classname="ru.stqa.pft.addressbook.tests.ContactCreationTests" time="1.193"/>
+  <testcase name="testContactCreation" classname="ru.stqa.pft.addressbook.tests.ContactCreationTests" time="1.127"/>
   <testcase name="testCurrentDir" classname="ru.stqa.pft.addressbook.tests.ContactCreationTests" time="0.0"/>
   <system-out><![CDATA[C:\Users\Ochir\Documents\GitHub\adressbook-web-tests\.
 C:\Users\Ochir\Documents\GitHub\adressbook-web-tests\src\test\resources\stru.png
