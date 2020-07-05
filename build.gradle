@@ -20,6 +20,7 @@ dependencies {
     compile 'com.beust:jcommander:1.48'
     compile 'com.thoughtworks.xstream:xstream:1.4.8'
     compile 'com.google.code.gson:gson:2.8.6'
+    testCompile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
 }
 
 
