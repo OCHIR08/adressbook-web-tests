@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.stqa.pft.addressbook.tests.ContactCreationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-07-05T19:49:00" hostname="DESKTOP-6DJN50P" time="4.473">
+  <properties/>
+  <testcase name="testContactCreation" classname="ru.stqa.pft.addressbook.tests.ContactCreationTests" time="4.472"/>
+  <testcase name="testCurrentDir" classname="ru.stqa.pft.addressbook.tests.ContactCreationTests" time="0.001"/>
+  <system-out><![CDATA[C:\Users\Ochir\Documents\GitHub\adressbook-web-tests\.
+C:\Users\Ochir\Documents\GitHub\adressbook-web-tests\src\test\resources\stru.png
+true
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
