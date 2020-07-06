@@ -21,6 +21,8 @@ dependencies {
     compile 'com.thoughtworks.xstream:xstream:1.4.8'
     compile 'com.google.code.gson:gson:2.8.6'
     testCompile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
+    compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.38'
+    compile 'org.hibernate:hibernate-core:5.1.0.Final'
 }
 
 
