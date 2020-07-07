@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0054ac89-bae9-417b-951c-328d3205cedc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/DbHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/appmanager/ContactHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/appmanager/ContactHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/model/ContactData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/model/ContactData.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/tests/HbConnectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/tests/HbConnectionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/ContactData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/ContactData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/HbConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/HbConnectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-20200706T011428.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-20200706T012749.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-20200706T013128.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/Groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/Groups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupModificationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupModificationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +88,7 @@
       <recent name="ru.stqa.pft.addressbook" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HbConnectionTest.testHbConnection">
+  <component name="RunManager" selected="TestNG.GroupModificationTests">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -184,7 +178,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DBConnectionTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupModificationTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="adressbook-web-tests.test" />
       <extension name="coverage">
         <pattern>
@@ -193,7 +187,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.DBConnectionTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.GroupModificationTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -202,7 +196,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupCreationTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupModificationTests.testGroupModification" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="adressbook-web-tests.test" />
       <extension name="coverage">
         <pattern>
@@ -211,8 +205,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.GroupCreationTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.GroupModificationTests" />
+      <option name="METHOD_NAME" value="testGroupModification" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -268,11 +263,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GroupModificationTests" />
+        <item itemvalue="TestNG.GroupModificationTests.testGroupModification" />
         <item itemvalue="TestNG.HbConnectionTest.testHbConnection" />
         <item itemvalue="TestNG.HbConnectionTest" />
         <item itemvalue="Gradle.adressbook-web-tests [dependencies]" />
-        <item itemvalue="TestNG.DBConnectionTest" />
-        <item itemvalue="TestNG.GroupCreationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -344,38 +339,38 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="771" y="295" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1592580225243" />
-    <state width="1815" height="491" key="GridCell.Tab.0.bottom" timestamp="1594134600742">
+    <state width="1815" height="491" key="GridCell.Tab.0.bottom" timestamp="1594137784277">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1750" height="151" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1593703972883" />
     <state width="1750" height="192" key="GridCell.Tab.0.bottom/0.23.1792.1047@0.23.1792.1047" timestamp="1593703912513" />
     <state width="1750" height="192" key="GridCell.Tab.0.bottom/0.23.1792.1048@0.23.1792.1048" timestamp="1593697950526" />
     <state width="1750" height="432" key="GridCell.Tab.0.bottom/0.23.1792.1049@0.23.1792.1049" timestamp="1593524519333" />
-    <state width="1815" height="491" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1594134600742" />
-    <state width="1815" height="491" key="GridCell.Tab.0.center" timestamp="1594134600741">
+    <state width="1815" height="491" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1594137784277" />
+    <state width="1815" height="491" key="GridCell.Tab.0.center" timestamp="1594137784277">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1750" height="151" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1593703972882" />
     <state width="1750" height="192" key="GridCell.Tab.0.center/0.23.1792.1047@0.23.1792.1047" timestamp="1593703912512" />
     <state width="1750" height="192" key="GridCell.Tab.0.center/0.23.1792.1048@0.23.1792.1048" timestamp="1593697950525" />
     <state width="1750" height="432" key="GridCell.Tab.0.center/0.23.1792.1049@0.23.1792.1049" timestamp="1593524519330" />
-    <state width="1815" height="491" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1594134600741" />
-    <state width="1815" height="491" key="GridCell.Tab.0.left" timestamp="1594134600741">
+    <state width="1815" height="491" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1594137784277" />
+    <state width="1815" height="491" key="GridCell.Tab.0.left" timestamp="1594137784277">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1750" height="151" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1593703972882" />
     <state width="1750" height="192" key="GridCell.Tab.0.left/0.23.1792.1047@0.23.1792.1047" timestamp="1593703912512" />
     <state width="1750" height="192" key="GridCell.Tab.0.left/0.23.1792.1048@0.23.1792.1048" timestamp="1593697950524" />
     <state width="1750" height="432" key="GridCell.Tab.0.left/0.23.1792.1049@0.23.1792.1049" timestamp="1593524519325" />
-    <state width="1815" height="491" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1594134600741" />
-    <state width="1815" height="491" key="GridCell.Tab.0.right" timestamp="1594134600741">
+    <state width="1815" height="491" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1594137784277" />
+    <state width="1815" height="491" key="GridCell.Tab.0.right" timestamp="1594137784277">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1750" height="151" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1593703972883" />
     <state width="1750" height="192" key="GridCell.Tab.0.right/0.23.1792.1047@0.23.1792.1047" timestamp="1593703912513" />
     <state width="1750" height="192" key="GridCell.Tab.0.right/0.23.1792.1048@0.23.1792.1048" timestamp="1593697950525" />
     <state width="1750" height="432" key="GridCell.Tab.0.right/0.23.1792.1049@0.23.1792.1049" timestamp="1593524519332" />
-    <state width="1815" height="491" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1594134600741" />
+    <state width="1815" height="491" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1594137784277" />
     <state width="1815" height="364" key="GridCell.Tab.1.bottom" timestamp="1594060064566">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
