@@ -24,6 +24,9 @@ dependencies {
     compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.38'
     compile 'org.hibernate:hibernate-core:5.1.0.Final'
 }
+test {
+    useTestNG()
+}
 
 
 task testGroups(type: Test) {

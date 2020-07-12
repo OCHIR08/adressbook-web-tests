@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0054ac89-bae9-417b-951c-328d3205cedc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/appmanager/ContactHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/appmanager/ContactHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/model/ContactData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/model/ContactData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/model/GroupData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/model/GroupData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/tests/HbConnectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/tests/HbConnectionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/ContactData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/ContactData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/GroupData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/GroupData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactCreationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupModificationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupModificationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/HbConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/HbConnectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +16,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/../mantis-tests">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/../sandbox">
+      <ProjectState />
+    </projectState>
+    <projectState path="$USER_HOME$/IdeaProjects/mantis-tests">
       <ProjectState />
     </projectState>
     <projectState path="$USER_HOME$/IdeaProjects/sandbox">
@@ -37,6 +36,12 @@
           <activation />
         </task>
         <task path="$PROJECT_DIR$/../sandbox">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../mantis-tests">
+          <activation />
+        </task>
+        <task path="$USER_HOME$/IdeaProjects/mantis-tests">
           <activation />
         </task>
         <projects_view>
@@ -73,24 +78,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mantis-tests/build.gradle" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="project.structure.proportion" value="0.15527344" />
+    <property name="project.structure.side.proportion" value="0.2662037" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Ochir\Documents\GitHub\adressbook-web-tests" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Ochir\Documents\GitHub\adressbook-web-tests\src\test\resources" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.stqa.pft.addressbook.generators" />
       <recent name="ru.stqa.pft.addressbook.appmanager" />
       <recent name="ru.stqa.pft.addressbook" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ochir\Documents\GitHub\adressbook-web-tests\src\test\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ochir\Documents\GitHub\adressbook-web-tests" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.HbConnectionTest.testHbConnection">
@@ -359,42 +364,42 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="964" y="106" key="CommitChangelistDialog2/62.0.1858.1080@62.0.1858.1080" timestamp="1592574183283" />
-    <state x="771" y="295" key="FileChooserDialogImpl" timestamp="1592580225243">
+    <state x="771" y="295" key="FileChooserDialogImpl" timestamp="1594579137837">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="771" y="295" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1592580225243" />
-    <state width="1815" height="535" key="GridCell.Tab.0.bottom" timestamp="1594571710587">
+    <state x="771" y="295" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1594579137837" />
+    <state width="1815" height="535" key="GridCell.Tab.0.bottom" timestamp="1594578217877">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1750" height="151" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1593703972883" />
     <state width="1750" height="192" key="GridCell.Tab.0.bottom/0.23.1792.1047@0.23.1792.1047" timestamp="1593703912513" />
     <state width="1750" height="192" key="GridCell.Tab.0.bottom/0.23.1792.1048@0.23.1792.1048" timestamp="1593697950526" />
     <state width="1750" height="432" key="GridCell.Tab.0.bottom/0.23.1792.1049@0.23.1792.1049" timestamp="1593524519333" />
-    <state width="1815" height="535" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1594571710587" />
-    <state width="1815" height="535" key="GridCell.Tab.0.center" timestamp="1594571710587">
+    <state width="1815" height="535" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1594578217877" />
+    <state width="1815" height="535" key="GridCell.Tab.0.center" timestamp="1594578217877">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1750" height="151" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1593703972882" />
     <state width="1750" height="192" key="GridCell.Tab.0.center/0.23.1792.1047@0.23.1792.1047" timestamp="1593703912512" />
     <state width="1750" height="192" key="GridCell.Tab.0.center/0.23.1792.1048@0.23.1792.1048" timestamp="1593697950525" />
     <state width="1750" height="432" key="GridCell.Tab.0.center/0.23.1792.1049@0.23.1792.1049" timestamp="1593524519330" />
-    <state width="1815" height="535" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1594571710587" />
-    <state width="1815" height="535" key="GridCell.Tab.0.left" timestamp="1594571710586">
+    <state width="1815" height="535" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1594578217877" />
+    <state width="1815" height="535" key="GridCell.Tab.0.left" timestamp="1594578217877">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1750" height="151" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1593703972882" />
     <state width="1750" height="192" key="GridCell.Tab.0.left/0.23.1792.1047@0.23.1792.1047" timestamp="1593703912512" />
     <state width="1750" height="192" key="GridCell.Tab.0.left/0.23.1792.1048@0.23.1792.1048" timestamp="1593697950524" />
     <state width="1750" height="432" key="GridCell.Tab.0.left/0.23.1792.1049@0.23.1792.1049" timestamp="1593524519325" />
-    <state width="1815" height="535" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1594571710586" />
-    <state width="1815" height="535" key="GridCell.Tab.0.right" timestamp="1594571710587">
+    <state width="1815" height="535" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1594578217877" />
+    <state width="1815" height="535" key="GridCell.Tab.0.right" timestamp="1594578217877">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1750" height="151" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1593703972883" />
     <state width="1750" height="192" key="GridCell.Tab.0.right/0.23.1792.1047@0.23.1792.1047" timestamp="1593703912513" />
     <state width="1750" height="192" key="GridCell.Tab.0.right/0.23.1792.1048@0.23.1792.1048" timestamp="1593697950525" />
     <state width="1750" height="432" key="GridCell.Tab.0.right/0.23.1792.1049@0.23.1792.1049" timestamp="1593524519332" />
-    <state width="1815" height="535" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1594571710587" />
+    <state width="1815" height="535" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1594578217877" />
     <state width="1815" height="364" key="GridCell.Tab.1.bottom" timestamp="1594060064566">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
@@ -423,10 +428,10 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="656" y="239" key="NewModule_or_Project.wizard/62.0.1858.1080@62.0.1858.1080" timestamp="1592580102360" />
-    <state x="471" y="114" key="SettingsEditor" timestamp="1594570856493">
+    <state x="540" y="21" key="SettingsEditor" timestamp="1594578826210">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="471" y="114" key="SettingsEditor/62.0.1858.1080@62.0.1858.1080" timestamp="1594570856493" />
+    <state x="540" y="21" key="SettingsEditor/62.0.1858.1080@62.0.1858.1080" timestamp="1594578826210" />
     <state x="583" y="273" key="Vcs.Push.Dialog.v2" timestamp="1592572927589">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
@@ -443,10 +448,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1593676542953" />
-    <state x="373" y="152" key="new project wizard" timestamp="1592579542302">
+    <state x="373" y="152" key="new project wizard" timestamp="1594579142017">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="373" y="152" key="new project wizard/62.0.1858.1080@62.0.1858.1080" timestamp="1592579542302" />
+    <state x="373" y="152" key="new project wizard/62.0.1858.1080@62.0.1858.1080" timestamp="1594579142017" />
     <state x="733" y="159" key="refactoring.ChangeSignatureDialog" timestamp="1592747719529">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
@@ -455,10 +460,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="561" y="265" key="run.anything.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1593686813073" />
-    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1594071636509">
+    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1594576549898">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="571" y="244" width="670" height="704" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1593698050269" />
-    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1594071636509" />
+    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1594576549898" />
   </component>
 </project>
